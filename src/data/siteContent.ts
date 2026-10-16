@@ -79,7 +79,7 @@ export interface CtaOption {
 export const site = {
   name: '買取ひだまり堂',
   logo: {
-    src: 'images/logo.webp',
+    src: 'images/logo.png',
     alt: '買取ひだまり堂 ロゴ',
   },
   phone: '00-0000-0000',

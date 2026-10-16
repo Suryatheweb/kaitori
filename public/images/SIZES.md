@@ -6,8 +6,8 @@ Regenerate this table with: `node scripts/image-info.mjs`
 | file                                         | size (px)     | KB       |
 |----------------------------------------------|---------------|----------|
 | public/favicon-180x180.jpg                   | 180 × 180     | 15.8     |
-| public/favicon-192x192.jpg                   | 192 × 192     | 17.2     |
-| public/favicon-270x270.jpg                   | 270 × 270     | 27.1     |
+| public/favicon-192x192.jpg                   | 192 × 192     | 3.9      |
+| public/favicon-270x270.jpg                   | 270 × 270     | 6.1      |
 | public/favicon-32x32.jpg                     | 32 × 32       | 2.2      |
 | public/favicon.svg                           | ? × ?         | 9.3      |
 | public/icons.svg                             | ? × ?         | 4.9      |
@@ -18,14 +18,14 @@ Regenerate this table with: `node scripts/image-info.mjs`
 | public/images/flow-02.webp                   | 800 × 533     | 34.3     |
 | public/images/flow-03.svg                    | ? × ?         | 0.5      |
 | public/images/flow-03.webp                   | 800 × 533     | 30.8     |
-| public/images/footer-banner-sp.webp          | 1024 × 1536   | 197.2    |
+| public/images/footer-banner-sp.webp          | 800 × 1200    | 126.5    |
 | public/images/footer-banner.svg              | ? × ?         | 0.5      |
-| public/images/footer-banner.webp             | 1774 × 887    | 193.0    |
-| public/images/footer-btn_sp.webp             | 1144 × 1311   | 111.4    |
-| public/images/footer-btn.webp                | 2139 × 423    | 90.8     |
+| public/images/footer-banner.webp             | 1400 × 700    | 128.6    |
+| public/images/footer-btn_sp.webp             | 800 × 916     | 66.4     |
+| public/images/footer-btn.webp                | 1400 × 276    | 42.8     |
 | public/images/hero-mobile.svg                | ? × ?         | 0.5      |
-| public/images/hero-pc.webp                   | 1742 × 903    | 140.6    |
-| public/images/hero-sp.webp                   | 864 × 1821    | 138.7    |
+| public/images/hero-pc.webp                   | 1742 × 903    | 126.6    |
+| public/images/hero-sp.webp                   | 864 × 1821    | 134.8    |
 | public/images/hero.svg                       | ? × ?         | 0.5      |
 | public/images/icon-line.webp                 | 411 × 413     | 36.3     |
 | public/images/icon-phone.svg                 | ? × ?         | 0.5      |
@@ -47,10 +47,7 @@ Regenerate this table with: `node scripts/image-info.mjs`
 | public/images/item-07.webp                   | 180 × 226     | 9.7      |
 | public/images/item-08.svg                    | ? × ?         | 0.5      |
 | public/images/item-08.webp                   | 308 × 196     | 8.5      |
-| public/images/jcrma_logo.png                 | 300 × 300     | 71.5     |
-| public/images/logo.svg                       | ? × ?         | 0.5      |
-| public/images/logo.webp                      | 188 × 114     | 6.7      |
-| public/images/nagashima_1200.webp            | 1200 × 600    | 45.8     |
+| public/images/logo.png                       | 188 × 114     | 34.6     |
 | public/images/price-01.svg                   | ? × ?         | 0.5      |
 | public/images/price-01.webp                  | 640 × 470     | 36.4     |
 | public/images/price-02.svg                   | ? × ?         | 0.5      |
@@ -61,16 +58,16 @@ Regenerate this table with: `node scripts/image-info.mjs`
 | public/images/price-04.webp                  | 640 × 470     | 20.4     |
 | public/images/price-title-head.webp          | 717 × 132     | 10.3     |
 | public/images/reason-01.svg                  | ? × ?         | 0.5      |
-| public/images/reason-01.webp                 | 1799 × 1199   | 86.4     |
+| public/images/reason-01.webp                 | 1200 × 800    | 48.6     |
 | public/images/reason-02.svg                  | ? × ?         | 0.5      |
-| public/images/reason-02.webp                 | 1799 × 1199   | 58.5     |
-| public/images/store-01.jpg                   | 800 × 589     | 93.1     |
+| public/images/reason-02.webp                 | 1200 × 800    | 32.0     |
+| public/images/store-01.jpg                   | 800 × 589     | 62.0     |
 | public/images/store-01.svg                   | ? × ?         | 0.5      |
 | public/images/store-02.jpg                   | 800 × 589     | 26.8     |
 | public/images/store-02.svg                   | ? × ?         | 0.5      |
-| public/images/store-03.jpg                   | 800 × 600     | 78.9     |
+| public/images/store-03.jpg                   | 800 × 600     | 53.0     |
 | public/images/store-03.svg                   | ? × ?         | 0.5      |
-| public/images/store-04.jpg                   | 800 × 600     | 109.7    |
+| public/images/store-04.jpg                   | 800 × 600     | 75.1     |
 | public/images/store-04.svg                   | ? × ?         | 0.5      |
 | public/images/title-underline.webp           | 970 × 78      | 8.8      |
 | public/ogp.png                               | 1200 × 630    | 156.9    |
