@@ -128,17 +128,12 @@ export const news = {
 }
 
 export const hero = {
-  heading: '大切な品を、\n適正価格で買取します',
-  description:
-    '腕時計・ブランド品・貴金属・ジュエリーなど、幅広い品目を対応しています。査定料・出張料・キャンセル料は無料です。まずはお気軽にご相談ください。',
   image: {
     src: 'images/hero-pc.webp',
     srcMobile: 'images/hero-sp.webp',
     alt: '高価買取のメインビジュアル',
     href: '/contact',
   },
-  primaryCta: { label: '無料査定を依頼する', href: '/contact' },
-  secondaryCta: { label: '買取の流れを見る', href: '#flow' },
 }
 
 export const about = {
