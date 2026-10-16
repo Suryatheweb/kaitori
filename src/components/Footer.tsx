@@ -26,7 +26,7 @@ export default function Footer() {
 
         <div className="footer__main">
           <a className="footer__logo" href="#top">
-            <img src={site.logo.src} alt={site.logo.alt} width={280} height={80} />
+            <img src={site.logo.src} alt={site.logo.alt} width={188} height={114} />
           </a>
 
           <nav className="footer__nav" aria-label="フッターナビゲーション">

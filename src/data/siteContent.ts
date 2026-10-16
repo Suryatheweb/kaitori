@@ -1,8 +1,7 @@
 /* ==========================================================================
    Central content file — edit ALL page text, links and image paths here.
    Images live in /public/images/. Swap the src paths for your own files.
-   Current files were downloaded from the reference site; see
-   public/images/SIZES.md for every image's width × height and KB
+   public/images/SIZES.md lists every image's width × height and KB
    (regenerate: node scripts/image-info.mjs). Match those sizes when swapping.
    ========================================================================== */
 
@@ -80,7 +79,7 @@ export interface CtaOption {
 export const site = {
   name: '買取ひだまり堂',
   logo: {
-    src: 'images/logo.svg',
+    src: 'images/logo.webp',
     alt: '買取ひだまり堂 ロゴ',
   },
   phone: '00-0000-0000',
@@ -91,16 +90,15 @@ export const site = {
   copyright: '© 買取ひだまり堂',
 }
 
-/* Placeholder links — replace with your real URLs later. */
 export const links = {
-  webForm: 'https://example.com/web-assessment',
-  chatForm: 'https://example.com/chat-assessment',
-  forBeginners: 'https://example.com/for-beginners',
-  items: 'https://example.com/items',
-  flow: 'https://example.com/flow',
-  faq: 'https://example.com/faq',
-  stores: 'https://example.com/stores',
-  franchise: 'https://example.com/franchise',
+  webForm: '/contact',
+  chatForm: '/contact',
+  forBeginners: '#about',
+  items: '#items',
+  flow: '#flow',
+  faq: '#faq',
+  stores: '#stores',
+  franchise: '#company',
 }
 
 export const navLinks: NavLink[] = [
@@ -122,21 +120,21 @@ export const mobileNavLinks: NavLink[] = [
 export const news = {
   title: '新着情報',
   items: [
-    { date: '2026.10.01', title: '新しいサンプル店舗がオープンしました', href: '#stores' },
-    { date: '2026.09.15', title: '買取品目のラインナップを追加しました', href: '#items' },
-    { date: '2026.09.01', title: '無料査定キャンペーンのお知らせ（ダミー）', href: '#contact' },
-    { date: '2026.08.20', title: 'よくある質問ページを更新しました', href: '#faq' },
+    { date: '2026.10.01', title: 'Web査定フォームのご案内を更新しました', href: '#contact' },
+    { date: '2026.09.15', title: '買取品目のページを公開しました', href: '#items' },
+    { date: '2026.09.01', title: '参考買取価格を掲載しました', href: '#price' },
+    { date: '2026.08.20', title: 'よくある質問を更新しました', href: '#faq' },
   ] satisfies NewsItem[],
 }
 
 export const hero = {
   heading: '大切な品を、\n適正価格で買取します',
   description:
-    'ここはプレースホルダーの説明文です。腕時計・ブランド品・貴金属など、幅広い品目を対象とした架空サービスのキャッチコピーと本文を自由に差し替えてください。',
+    '腕時計・ブランド品・貴金属・ジュエリーなど、幅広い品目を対応しています。査定料・出張料・キャンセル料は無料です。まずはお気軽にご相談ください。',
   image: {
     src: 'images/hero-pc.webp',
     srcMobile: 'images/hero-sp.webp',
-    alt: 'サービス紹介のメインビジュアル',
+    alt: '高価買取のメインビジュアル',
     href: '/contact',
   },
   primaryCta: { label: '無料査定を依頼する', href: '/contact' },
@@ -147,10 +145,10 @@ export const about = {
   id: 'about',
   heading: '幅広い品目を、丁寧に査定',
   lead:
-    'お品物の一点一点に目を向け、市場相場をもとにした適正価格をご案内します。\n査定料・出張料・キャンセル料は無料という前提のサンプル文案です。',
+    'お品物の一点一点に目を向け、市場相場をもとにした適正価格をご案内します。\n査定料・出張料・キャンセル料は無料です。',
   body: [
-    'こちらはプレースホルダーの本文です。保有している品物の例、査定の流れ、安心して相談できる理由などを、実際の事業内容に合わせて書き換えてください。',
-    '文章は段落ごとに管理されているので、src/data/siteContent.ts の about.body を編集するだけで反映されます。',
+    '腕時計やブランド品、貴金属やジュエリーなど、ご自宅で眠っている品物はありませんか。当店では、時計や貴金属からブランド品、切手や金券まで、幅広い品目を丁寧に査定いたします。',
+    '査定はお客様のご納得を第一に行っております。価格にご納得いただけない場合のキャンセルも無料です。まずはお電話またはフォームから、お気軽にご連絡ください。',
   ],
 }
 
@@ -181,9 +179,9 @@ export const items = {
   id: 'items',
   heading: '買取品目',
   lead:
-    'ご自宅で眠っている品物があれば、まずはお気軽にご相談ください。\n下記はダミーのカテゴリーです。文字と画像を自由に差し替えられます。',
+    'ご自宅で眠っている品物があれば、まずはお気軽にご相談ください。\n下記のほかにも、幅広い品目を取り扱っております。',
   cards: [
-    { image: 'images/item-01.webp', imageAlt: '金・貴金属のカテゴリ画像', label: '金・貴金属' },
+    { image: 'images/item-01.png', imageAlt: '金・貴金属のカテゴリ画像', label: '金・貴金属' },
     { image: 'images/item-02.webp', imageAlt: '宝石のカテゴリ画像', label: '宝石' },
     { image: 'images/item-03.webp', imageAlt: 'ブランド品のカテゴリ画像', label: 'ブランド' },
     { image: 'images/item-04.webp', imageAlt: '時計のカテゴリ画像', label: '時計' },
@@ -199,31 +197,31 @@ export const items = {
 export const price = {
   id: 'price',
   heading: '参考買取価格',
-  lead: '実際の相場ではなく、レイアウト確認用のダミー価格です。',
+  lead: '実際の査定額は品物の状態や相場により異なりますが、参考として一部の買取価格例をご紹介します。',
   badge: '相場変動中',
   cards: [
     {
       image: 'images/price-01.webp',
-      imageAlt: '参考買取価格の商品1の画像',
-      title: 'ブランドバッグ サンプル01',
+      imageAlt: 'ブランドバッグの参考買取価格の画像',
+      title: 'ブランドバッグ',
       price: '¥120,000',
     },
     {
       image: 'images/price-02.webp',
-      imageAlt: '参考買取価格の商品2の画像',
-      title: '腕時計 サンプル02',
+      imageAlt: 'ブランドバッグ（チェーン付き）の参考買取価格の画像',
+      title: 'ブランドバッグ（チェーン付き）',
       price: '¥350,000',
     },
     {
       image: 'images/price-03.webp',
-      imageAlt: '参考買取価格の商品3の画像',
-      title: '記念金貨 サンプル03',
+      imageAlt: '記念金貨の参考買取価格の画像',
+      title: '記念金貨 1万円',
       price: '¥45,000',
     },
     {
       image: 'images/price-04.webp',
-      imageAlt: '参考買取価格の商品4の画像',
-      title: 'ジュエリー サンプル04',
+      imageAlt: '高級腕時計の参考買取価格の画像',
+      title: '高級腕時計',
       price: '¥80,000',
     },
   ] satisfies PriceCard[],
@@ -238,21 +236,21 @@ export const reasons = {
       imageAlt: 'スピード査定のイメージ画像',
       number: 'REASON 01',
       title: '査定のスピード',
-      body: 'プレースホルダーの本文です。問い合わせから査定、お支払いまでの流れを素早く進められる理由を、実際のサービス内容に合わせて記述してください。',
+      body: 'お問い合わせから査定、お支払いまで、できるだけスムーズに進めてまいります。お急ぎの場合も、まずはご相談ください。',
     },
     {
       image: 'images/reason-02.webp',
       imageAlt: '正確な診断のイメージ画像',
       number: 'REASON 02',
       title: '診断の正確さ',
-      body: 'プレースホルダーの本文です。相場や状態、希少性などを総合的に判断して価格を提示する姿勢を、独自の表現に書き換えてください。',
+      body: '相場や品物の状態、希少性などを総合的に見極め、根拠のある価格をご提示いたします。',
     },
     {
       image: 'images/flow-01.webp',
       imageAlt: '安心して相談できる対応のイメージ画像',
       number: 'REASON 03',
       title: '安心の対応体制',
-      body: 'プレースホルダーの本文です。店舗での対応や出張対応など、お客様が安心して相談できる環境についてのダミー文章が入ります。',
+      body: '店舗での対応はもちろん、出張査定にも対応しております。ご自宅や事務所など、ご指定の場所へ伺います。',
     },
   ] satisfies ReasonBlock[],
   moreLabel: 'はじめてご利用の方へ',
@@ -262,28 +260,28 @@ export const reasons = {
 export const flow = {
   id: 'flow',
   heading: '買取の流れ',
-  lead: 'ご相談からお支払いまでの流れを、3つのステップでご案内します。（ダミー文章）',
+  lead: 'ご相談からお支払いまでの流れを、3つのステップでご案内します。',
   steps: [
     {
       image: 'images/flow-01.webp',
       imageAlt: 'お問い合わせステップの画像',
       number: '01',
       title: 'お問い合わせ',
-      body: 'フォームまたはお電話からお気軽にご連絡ください。専門スタッフが丁寧にご案内します（ダミー文）。',
+      body: 'フォームまたはお電話からお気軽にご連絡ください。品物の種類や点数など、簡単な情報を伺います。',
     },
     {
       image: 'images/flow-02.webp',
       imageAlt: '無料査定ステップの画像',
       number: '02',
       title: '無料査定',
-      body: '査定士が一点一点を丁寧に確認し、相場にもとづいた価格をご提示します（ダミー文）。',
+      body: '査定士が一点一点を丁寧に確認し、相場にもとづいた価格をご提示します。査定料は無料です。',
     },
     {
       image: 'images/flow-03.webp',
       imageAlt: 'お支払いステップの画像',
       number: '03',
       title: 'お支払い',
-      body: '金額にご納得いただければ、その場でお支払いいたします（ダミー文）。',
+      body: '金額にご納得いただければ、その場でお支払いいたします。キャンセルしても費用はかかりません。',
     },
   ] satisfies FlowStep[],
   moreLabel: '買取の流れはこちら',
@@ -293,11 +291,11 @@ export const flow = {
 export const stores = {
   id: 'stores',
   heading: '店舗一覧',
-  lead: '住所・電話番号はすべてダミーです。実際の店舗情報に差し替えてください。',
+  lead: '出張査定のほか、店舗での査定にも対応しています。ご来店の際はお気軽にご相談ください。',
   cards: [
     {
       image: 'images/store-01.jpg',
-      imageAlt: 'サンプル店舗1の外観画像',
+      imageAlt: '店舗1の外観画像',
       name: 'サンプル店舗 A',
       address: '〒000-0000 サンプル県テスト市中央1-2-3',
       tel: '00-0000-0001',
@@ -305,16 +303,16 @@ export const stores = {
     },
     {
       image: 'images/store-02.jpg',
-      imageAlt: 'サンプル店舗2の外観画像',
+      imageAlt: '店舗2の外観画像',
       name: 'サンプル店舗 B',
       address: '〒000-0000 サンプル県ダミー市駅前4-5-6',
       tel: '00-0000-0002',
       access: '地下鉄駅から徒歩3分',
-      note: '出張査定に対応しています（ダミー注記）。',
+      note: '出張査定に対応しています。',
     },
     {
       image: 'images/store-03.jpg',
-      imageAlt: 'サンプル店舗3の外観画像',
+      imageAlt: '店舗3の外観画像',
       name: 'サンプル店舗 C',
       address: '〒000-0000 サンプル県試験市南7-8-9',
       tel: '00-0000-0003',
@@ -322,7 +320,7 @@ export const stores = {
     },
     {
       image: 'images/store-04.jpg',
-      imageAlt: 'サンプル店舗4の外観画像',
+      imageAlt: '店舗4の外観画像',
       name: 'サンプル店舗 D',
       address: '〒000-0000 サンプル県例示町西10-11-12',
       tel: '00-0000-0004',
@@ -336,32 +334,32 @@ export const stores = {
 export const faq = {
   id: 'faq',
   heading: 'よくある質問',
-  lead: '以下はすべてダミーのQ&Aです。実際の内容に差し替えてください。',
+  lead: '査定や買取に関するよくあるご質問をまとめました。',
   items: [
     {
       question: '査定料はかかりますか？',
       answer:
-        'プレースホルダーの回答です。査定料は無料という想定のダミー文をここに記載します。実際の料金体系に合わせて書き換えてください。',
+        '査定は無料です。出張料やキャンセル料もいただきませんので、費用の心配なくご相談いただけます。',
     },
     {
       question: '出張査定は可能ですか？',
       answer:
-        'プレースホルダーの回答です。出張対応の可否や対応エリアを、実際のサービス内容に合わせて記述してください。',
+        'はい、出張査定に対応しております。ご自宅や事務所など、ご指定の場所へ査定士が伺います。対応エリアについては、お問い合わせ時にお気軽にご確認ください。',
     },
     {
       question: '査定にはどれくらい時間がかかりますか？',
       answer:
-        'プレースホルダーの回答です。目安の所要時間をダミーとして記載しています。',
+        'お品物の点数や内容により異なります。お急ぎの場合はあらかじめお知らせください。',
     },
     {
       question: '壊れている品物でも買取できますか？',
       answer:
-        'プレースホルダーの回答です。状態に関する考え方を、実際の方針に合わせて書き換えてください。',
+        '傷や動作不良がある品物でも、査定できる場合がございます。状態を拝見したうえで判断しますので、まずはご相談ください。',
     },
     {
       question: 'その場で現金で支払ってもらえますか？',
       answer:
-        'プレースホルダーの回答です。支払い方法に関するダミー説明が入ります。',
+        '査定金額にご納得いただけましたら、その場でお支払いいたします。金額や状況に応じて、銀行振込にも対応可能です。',
     },
   ] satisfies FaqItem[],
   moreLabel: 'よくある質問一覧はこちら',
@@ -372,13 +370,13 @@ export const company = {
   id: 'company',
   heading: '会社概要',
   rows: [
-    { label: '社名', value: '株式会社サンプル（ダミー）' },
+    { label: '社名', value: '株式会社サンプル' },
     { label: '屋号', value: '買取ひだまり堂' },
-    { label: '事業内容', value: '中古品の買取・販売（ダミー記載）' },
+    { label: '事業内容', value: '中古品の買取・販売' },
     { label: '住所', value: '〒000-0000 サンプル県テスト市中央1-2-3' },
-    { label: '代表', value: '代表者 名前（ダミー）' },
+    { label: '代表', value: '代表取締役 ○○ ○○' },
     { label: '設立', value: '20XX年X月' },
-    { label: '古物商許可番号', value: '第000000000000号（ダミー）' },
+    { label: '古物商許可番号', value: '第000000000000号' },
   ] satisfies CompanyRow[],
 }
 
@@ -387,7 +385,7 @@ export const footer = {
     src: 'images/footer-banner.webp',
     srcMobile: 'images/footer-banner-sp.webp',
     alt: 'フッターのバナー画像',
-    label: 'フランチャイズ募集（バナー差し替え用）',
+    label: 'FC加盟店募集',
     href: links.franchise,
   },
   links: [...navLinks, { label: 'フランチャイズ募集', href: links.franchise }],
@@ -403,11 +401,12 @@ export const contact = {
   optionalLabel: '任意',
   submitLabel: '送信する',
   agreeLabel: 'プライバシーポリシーに同意する',
-  sentMessage: 'デモ用フォームのため送信されません。ご入力ありがとうございました。',
+  sentMessage: '送信いただきありがとうございました。内容を確認のうえ、担当者よりご連絡いたします。',
   privacyHeading: '個人情報保護方針',
   privacyBody: [
-    'こちらはプレースホルダーの個人情報保護方針です。取得した情報の利用目的、管理方法、第三者提供についての考え方を、実際の方針に合わせて書き換えてください。',
-    '文章は src/data/siteContent.ts の contact.privacyBody で自由に追加・編集できます。段落ごとに配列の要素として管理されています。',
+    '当店は、お客様からお預かりする個人情報を適切に管理し、利用目的の範囲内でのみ使用いたします。',
+    '取得した個人情報は、査定のご案内、お問い合わせへの回答、サービスに関するご連絡のために利用いたします。ご本人の同意がある場合を除き、個人情報を第三者へ提供することはありません。',
+    '個人情報の開示・訂正・削除をご希望の場合は、お問い合わせ窓口までご連絡ください。対応いたします。',
   ],
   fields: {
     name: { label: 'お名前' },

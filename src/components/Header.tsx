@@ -33,7 +33,7 @@ export default function Header() {
     <header className={`header${scrolled ? ' is-scrolled' : ''}`}>
       <div className="header__inner">
         <a className="header__logo" href="#top" onClick={closeMenu}>
-          <img src={site.logo.src} alt={site.logo.alt} width={280} height={80} />
+          <img src={site.logo.src} alt={site.logo.alt} width={188} height={114} />
         </a>
 
         <nav className="header__nav" aria-label="メインナビゲーション">
