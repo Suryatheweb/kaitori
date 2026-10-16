@@ -24,13 +24,14 @@ Regenerate this table with: `node scripts/image-info.mjs`
 | public/images/footer-btn_sp.webp             | 1144 × 1311   | 160.4    |
 | public/images/footer-btn.webp                | 2139 × 423    | 114.8    |
 | public/images/hero-mobile.svg                | ? × ?         | 0.5      |
-| public/images/hero-pc.webp                   | 1742 × 903    | 157.6    |
+| public/images/hero-pc.webp                   | 1742 × 903    | 96.9     |
 | public/images/hero-sp.webp                   | 864 × 1821    | 171.8    |
 | public/images/hero.svg                       | ? × ?         | 0.5      |
 | public/images/icon-line.webp                 | 411 × 413     | 36.3     |
 | public/images/icon-phone.svg                 | ? × ?         | 0.5      |
 | public/images/icon-web.svg                   | ? × ?         | 0.5      |
 | public/images/icon-web.webp                  | 373 × 262     | 16.8     |
+| public/images/item-01.png                    | 279 × 188     | 59.3     |
 | public/images/item-01.svg                    | ? × ?         | 0.5      |
 | public/images/item-01.webp                   | 279 × 188     | 10.2     |
 | public/images/item-02.svg                    | ? × ?         | 0.5      |
@@ -51,32 +52,6 @@ Regenerate this table with: `node scripts/image-info.mjs`
 | public/images/logo.svg                       | ? × ?         | 0.5      |
 | public/images/logo.webp                      | 188 × 114     | 6.7      |
 | public/images/nagashima_1200.webp            | 1200 × 600    | 45.8     |
-| public/images/New folder/cta_title.png       | 2170 × 725    | 875.6    |
-| public/images/New folder/flow-01.png         | 1536 × 1024   | 1841.7   |
-| public/images/New folder/flow-02.png         | 1448 × 1086   | 1859.2   |
-| public/images/New folder/flow-03.png         | 1536 × 1024   | 1921.2   |
-| public/images/New folder/footer-banner-sp.png | 1024 × 1536   | 2705.5   |
-| public/images/New folder/footer-banner.png   | 1774 × 887    | 2667.9   |
-| public/images/New folder/footer-btn_sp.png   | 1172 × 1342   | 2346.5   |
-| public/images/New folder/footer-btn.png      | 2172 × 724    | 1737.5   |
-| public/images/New folder/hero-pc.png         | 1742 × 903    | 2232.4   |
-| public/images/New folder/hero-sp.png         | 864 × 1821    | 2286.2   |
-| public/images/New folder/item-01.jpg         | 1258 × 848    | 536.5    |
-| public/images/New folder/item-02.png         | 960 × 960     | 28.2     |
-| public/images/New folder/item-03.jpg         | 848 × 1237    | 584.6    |
-| public/images/New folder/item-04.jpg         | 1024 × 1031   | 406.6    |
-| public/images/New folder/item-05.jpg         | 924 × 1152    | 393.3    |
-| public/images/New folder/item-06.jpg         | 1059 × 1008   | 716.0    |
-| public/images/New folder/item-07.jpg         | 912 × 1177    | 507.6    |
-| public/images/New folder/item-08.png         | 1572 × 1001   | 1867.2   |
-| public/images/New folder/logo.png            | 1610 × 977    | 1502.7   |
-| public/images/New folder/price-01.png        | 1463 × 1075   | 2153.3   |
-| public/images/New folder/price-02.png        | 1463 × 1075   | 2260.1   |
-| public/images/New folder/price-03.jpg        | 1198 × 880    | 543.8    |
-| public/images/New folder/price-04.jpg        | 1408 × 768    | 298.2    |
-| public/images/New folder/price-title-head.png | 2170 × 725    | 753.9    |
-| public/images/New folder/reason-01.png       | 1536 × 1024   | 1957.4   |
-| public/images/New folder/reason-02.png       | 1536 × 1024   | 1910.1   |
 | public/images/price-01.svg                   | ? × ?         | 0.5      |
 | public/images/price-01.webp                  | 640 × 470     | 36.4     |
 | public/images/price-02.svg                   | ? × ?         | 0.5      |
