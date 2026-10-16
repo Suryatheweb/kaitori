@@ -1,0 +1,52 @@
+/* Fixed mobile contact bar */
+
+.mobile-bar {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: var(--z-mobile-bar);
+  display: flex;
+  gap: var(--space-sm);
+  height: var(--mobile-bar-height);
+  padding: var(--space-sm);
+  background-color: rgba(245, 241, 231, 0.96);
+  border-top: var(--border);
+  box-shadow: 0 -4px 16px rgba(35, 61, 52, 0.12);
+  backdrop-filter: blur(6px);
+}
+
+.mobile-bar__button {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+  min-width: 0;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  border-radius: var(--radius-pill);
+  border: 2px solid transparent;
+}
+
+.mobile-bar__button--outline {
+  color: var(--color-primary-dark);
+  background-color: var(--color-bg);
+  border-color: var(--color-accent);
+}
+
+.mobile-bar__button--fill {
+  color: var(--color-on-dark);
+  background-color: var(--color-primary);
+}
+
+.mobile-bar__icon {
+  font-size: 1.1em;
+}
+
+/* Hide on tablet and up — header provides CTAs there */
+@media (min-width: 768px) {
+  .mobile-bar {
+    display: none;
+  }
+}

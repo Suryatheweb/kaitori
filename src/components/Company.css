@@ -1,0 +1,42 @@
+/* Company profile table */
+
+.company__table {
+  border-top: 1px solid rgba(245, 241, 231, 0.25);
+}
+
+.company__row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid rgba(245, 241, 231, 0.25);
+}
+
+.company__label {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-on-dark);
+}
+
+.company__value {
+  font-size: var(--font-size-base);
+  color: var(--color-on-dark);
+}
+
+@media (min-width: 768px) {
+  .company__row {
+    flex-direction: row;
+    align-items: baseline;
+    gap: var(--space-xl);
+    padding: var(--space-lg) 0;
+  }
+
+  .company__label {
+    flex: 0 0 10em;
+  }
+
+  .company__value {
+    flex: 1;
+    min-width: 0;
+  }
+}

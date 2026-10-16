@@ -1,0 +1,10 @@
+@import './styles/tokens.css';
+@import './styles/global.css';
+
+/* Bottom padding so the fixed mobile bar never covers content.
+   Hidden at >=768px where the bar disappears. */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: var(--mobile-bar-height);
+  }
+}

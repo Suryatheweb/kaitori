@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-label="ITEM 01 placeholder">
+  <rect width="400" height="300" fill="#2b1d12"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="#fdf8ef" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="200" y="150" fill="#fdf8ef" font-family="Helvetica, Arial, sans-serif" font-size="43" font-weight="700" text-anchor="middle" dominant-baseline="central">ITEM 01</text>
+</svg>

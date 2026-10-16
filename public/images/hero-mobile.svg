@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="900" viewBox="0 0 768 900" role="img" aria-label="HERO SP 768x900 placeholder">
+  <rect width="768" height="900" fill="#2b1d12"/>
+  <rect x="8" y="8" width="752" height="884" fill="none" stroke="#fdf8ef" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="384" y="450" fill="#fdf8ef" font-family="Helvetica, Arial, sans-serif" font-size="110" font-weight="700" text-anchor="middle" dominant-baseline="central">HERO SP 768x900</text>
+</svg>

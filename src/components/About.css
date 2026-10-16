@@ -1,0 +1,11 @@
+/* About / intro text block */
+
+.about__body {
+  max-width: 46em;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  font-size: var(--font-size-md);
+  color: var(--color-text);
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450" role="img" aria-label="PRICE 01 placeholder">
+  <rect width="600" height="450" fill="#2b1d12"/>
+  <rect x="8" y="8" width="584" height="434" fill="none" stroke="#fdf8ef" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="300" y="225" fill="#fdf8ef" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" text-anchor="middle" dominant-baseline="central">PRICE 01</text>
+</svg>
