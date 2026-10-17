@@ -39,13 +39,9 @@ $files = @(
   @{ url = "$theme/nagashima_1200.webp";          out = "$img/nagashima_1200.webp" },
   @{ url = "$theme/footer-btn.webp";              out = "$img/footer-btn.webp" },
   @{ url = "$theme/footer-btn_sp.webp";           out = "$img/footer-btn_sp.webp" },
-  @{ url = "$uploads/2026/08/jcrma_logo.png";     out = "$img/jcrma_logo.png" },
-  # root-level (favicon / ogp)
-  @{ url = "$uploads/2026/07/ogp.png";                       out = 'public/ogp.png' },
-  @{ url = "$uploads/2026/06/cropped-favicon-32x32.jpg";     out = 'public/favicon-32x32.jpg' },
-  @{ url = "$uploads/2026/06/cropped-favicon-192x192.jpg";   out = 'public/favicon-192x192.jpg' },
-  @{ url = "$uploads/2026/06/cropped-favicon-180x180.jpg";   out = 'public/favicon-180x180.jpg' },
-  @{ url = "$uploads/2026/06/cropped-favicon-270x270.jpg";   out = 'public/favicon-270x270.jpg' }
+  @{ url = "$uploads/2026/08/jcrma_logo.png";     out = "$img/jcrma_logo.png" }
+  # NOTE: favicon / ogp images are intentionally NOT downloaded here.
+  # They are our own branding: public/favicon*.png and public/ogp.png
 )
 
 $fail = 0

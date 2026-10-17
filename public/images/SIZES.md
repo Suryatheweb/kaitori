@@ -5,12 +5,11 @@ Regenerate this table with: `node scripts/image-info.mjs`
 
 | file                                         | size (px)     | KB       |
 |----------------------------------------------|---------------|----------|
-| public/favicon-180x180.jpg                   | 180 × 180     | 15.8     |
-| public/favicon-192x192.jpg                   | 192 × 192     | 3.9      |
-| public/favicon-270x270.jpg                   | 270 × 270     | 6.1      |
-| public/favicon-32x32.jpg                     | 32 × 32       | 2.2      |
-| public/favicon.svg                           | ? × ?         | 9.3      |
-| public/icons.svg                             | ? × ?         | 4.9      |
+| public/favicon-180x180.png                   | 180 × 180     | 28.4     |
+| public/favicon-192x192.png                   | 192 × 192     | 35.0     |
+| public/favicon-270x270.png                   | 270 × 270     | 60.5     |
+| public/favicon-32x32.png                     | 32 × 32       | 1.7      |
+| public/favicon.png                           | 642 × 389     | 342.1    |
 | public/images/cta_title.webp                 | 657 × 180     | 18.1     |
 | public/images/flow-01.svg                    | ? × ?         | 0.5      |
 | public/images/flow-01.webp                   | 800 × 533     | 29.2     |
@@ -36,18 +35,18 @@ Regenerate this table with: `node scripts/image-info.mjs`
 | public/images/item-02.svg                    | ? × ?         | 0.5      |
 | public/images/item-02.webp                   | 229 × 184     | 8.0      |
 | public/images/item-03.svg                    | ? × ?         | 0.5      |
-| public/images/item-03.webp                   | 228 × 237     | 14.6     |
+| public/images/item-03.webp                   | 180 × 234     | 10.8     |
 | public/images/item-04.svg                    | ? × ?         | 0.5      |
-| public/images/item-04.webp                   | 180 × 234     | 8.4      |
+| public/images/item-04.webp                   | 228 × 237     | 18.9     |
 | public/images/item-05.svg                    | ? × ?         | 0.5      |
-| public/images/item-05.webp                   | 169 × 188     | 5.5      |
+| public/images/item-05.webp                   | 169 × 188     | 7.3      |
 | public/images/item-06.svg                    | ? × ?         | 0.5      |
-| public/images/item-06.webp                   | 314 × 299     | 22.0     |
+| public/images/item-06.webp                   | 314 × 299     | 29.9     |
 | public/images/item-07.svg                    | ? × ?         | 0.5      |
-| public/images/item-07.webp                   | 180 × 226     | 9.7      |
+| public/images/item-07.webp                   | 180 × 226     | 13.5     |
 | public/images/item-08.svg                    | ? × ?         | 0.5      |
-| public/images/item-08.webp                   | 308 × 196     | 8.5      |
-| public/images/logo.png                       | 188 × 114     | 34.6     |
+| public/images/item-08.webp                   | 308 × 196     | 12.4     |
+| public/images/logo.png                       | 752 × 456     | 65.9     |
 | public/images/price-01.svg                   | ? × ?         | 0.5      |
 | public/images/price-01.webp                  | 640 × 470     | 36.4     |
 | public/images/price-02.svg                   | ? × ?         | 0.5      |
@@ -70,4 +69,4 @@ Regenerate this table with: `node scripts/image-info.mjs`
 | public/images/store-04.jpg                   | 800 × 600     | 75.1     |
 | public/images/store-04.svg                   | ? × ?         | 0.5      |
 | public/images/title-underline.webp           | 970 × 78      | 8.8      |
-| public/ogp.png                               | 1200 × 630    | 156.9    |
+| public/ogp.png                               | 1200 × 630    | 686.6    |
