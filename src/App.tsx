@@ -12,7 +12,6 @@ import MobileContactBar from './components/MobileContactBar'
 import News from './components/News'
 import Price from './components/Price'
 import Reasons from './components/Reasons'
-import Stores from './components/Stores'
 import ContactPage from './pages/ContactPage'
 import { getPath, installRouter, subscribe } from './lib/router'
 import { site } from './data/siteContent'
@@ -53,7 +52,6 @@ export default function App() {
             <Reasons />
             <Assessment />
             <Flow />
-            <Stores />
             <Faq />
             <Company />
           </>

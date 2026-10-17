@@ -27,10 +27,6 @@ $files = @(
   @{ url = "$theme/flow_03.webp";                 out = "$img/flow-03.webp" },
   @{ url = "$theme/fc_banner.webp";               out = "$img/footer-banner.webp" },
   @{ url = "$theme/fc_banner_sp.webp";            out = "$img/footer-banner-sp.webp" },
-  @{ url = "$uploads/2026/08/tsubuku.jpg";        out = "$img/store-01.jpg" },
-  @{ url = "$uploads/2026/08/noimage.jpg";        out = "$img/store-02.jpg" },
-  @{ url = "$uploads/2026/07/higashi-nanba.jpg";  out = "$img/store-03.jpg" },
-  @{ url = "$uploads/2026/07/suminoe.jpg";        out = "$img/store-04.jpg" },
   # extras kept with original names
   @{ url = "$theme/icon-line.webp";               out = "$img/icon-line.webp" },
   @{ url = "$theme/cta_title.webp";               out = "$img/cta_title.webp" },

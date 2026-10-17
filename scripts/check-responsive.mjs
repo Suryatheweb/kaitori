@@ -73,10 +73,10 @@ try {
 
     // 2. All sections rendered
     const sections = await page.evaluate(() =>
-      ['top', 'news', 'about', 'contact', 'items', 'price', 'reasons', 'flow', 'stores', 'faq', 'company']
+      ['top', 'news', 'about', 'contact', 'items', 'price', 'reasons', 'flow', 'faq', 'company']
         .filter((id) => !document.getElementById(id))
         .concat(
-          document.querySelectorAll('main > section').length === 12
+          document.querySelectorAll('main > section').length === 11
             ? []
             : [`section count=${document.querySelectorAll('main > section').length}`],
         ),

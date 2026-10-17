@@ -45,16 +45,6 @@ export interface FlowStep {
   body: string
 }
 
-export interface StoreCard {
-  image: string
-  imageAlt: string
-  name: string
-  address: string
-  tel: string
-  access: string
-  note?: string
-}
-
 export interface FaqItem {
   question: string
   answer: string
@@ -97,7 +87,6 @@ export const links = {
   items: '#items',
   flow: '#flow',
   faq: '#faq',
-  stores: '#stores',
   franchise: '#company',
 }
 
@@ -111,7 +100,6 @@ export const navLinks: NavLink[] = [
 export const mobileNavLinks: NavLink[] = [
   ...navLinks,
   { label: '参考買取価格', href: '#price' },
-  { label: '店舗一覧', href: '#stores' },
   { label: '会社概要', href: '#company' },
 ]
 
@@ -245,7 +233,7 @@ export const reasons = {
       imageAlt: '安心して相談できる対応のイメージ画像',
       number: 'REASON 03',
       title: '安心の対応体制',
-      body: '店舗での対応はもちろん、出張査定にも対応しております。ご自宅や事務所など、ご指定の場所へ伺います。',
+      body: '出張査定はもちろん、ご自宅や事務所など、ご指定の場所へ伺います。',
     },
   ] satisfies ReasonBlock[],
   moreLabel: 'はじめてご利用の方へ',
@@ -281,49 +269,6 @@ export const flow = {
   ] satisfies FlowStep[],
   moreLabel: '買取の流れはこちら',
   moreHref: links.flow,
-}
-
-export const stores = {
-  id: 'stores',
-  heading: '店舗一覧',
-  lead: '出張査定のほか、店舗での査定にも対応しています。ご来店の際はお気軽にご相談ください。',
-  cards: [
-    {
-      image: 'images/store-01.jpg',
-      imageAlt: '店舗1の外観画像',
-      name: 'サンプル店舗 A',
-      address: '〒000-0000 サンプル県テスト市中央1-2-3',
-      tel: '00-0000-0001',
-      access: '最寄駅から徒歩5分',
-    },
-    {
-      image: 'images/store-02.jpg',
-      imageAlt: '店舗2の外観画像',
-      name: 'サンプル店舗 B',
-      address: '〒000-0000 サンプル県ダミー市駅前4-5-6',
-      tel: '00-0000-0002',
-      access: '地下鉄駅から徒歩3分',
-      note: '出張査定に対応しています。',
-    },
-    {
-      image: 'images/store-03.jpg',
-      imageAlt: '店舗3の外観画像',
-      name: 'サンプル店舗 C',
-      address: '〒000-0000 サンプル県試験市南7-8-9',
-      tel: '00-0000-0003',
-      access: 'バス停から徒歩2分',
-    },
-    {
-      image: 'images/store-04.jpg',
-      imageAlt: '店舗4の外観画像',
-      name: 'サンプル店舗 D',
-      address: '〒000-0000 サンプル県例示町西10-11-12',
-      tel: '00-0000-0004',
-      access: '近隣駐車場あり',
-    },
-  ] satisfies StoreCard[],
-  moreLabel: '店舗一覧はこちら',
-  moreHref: links.stores,
 }
 
 export const faq = {
@@ -365,13 +310,16 @@ export const company = {
   id: 'company',
   heading: '会社概要',
   rows: [
-    { label: '社名', value: '株式会社サンプル' },
+    { label: '社名', value: '合同会社ReUnion' },
     { label: '屋号', value: '買取ひだまり堂' },
     { label: '事業内容', value: '中古品の買取・販売' },
-    { label: '住所', value: '〒000-0000 サンプル県テスト市中央1-2-3' },
-    { label: '代表', value: '代表取締役 ○○ ○○' },
-    { label: '設立', value: '20XX年X月' },
-    { label: '古物商許可番号', value: '第000000000000号' },
+    {
+      label: '本社',
+      value: '〒980-0804\n宮城県仙台市青葉区大町2丁目11-11\nGranria西公園305',
+    },
+    { label: '東京営業所', value: '〒132-0025\n東京都江戸川区松江7-28-3' },
+    { label: '代表', value: '高田将暉' },
+    { label: '古物商番号', value: '宮城県公安委員会許可\n第221000001646号' },
   ] satisfies CompanyRow[],
 }
 

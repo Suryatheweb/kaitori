@@ -45,10 +45,6 @@ const images = [
   { file: 'flow-01.svg', w: 640, h: 420, label: 'STEP 01' },
   { file: 'flow-02.svg', w: 640, h: 420, label: 'STEP 02' },
   { file: 'flow-03.svg', w: 640, h: 420, label: 'STEP 03' },
-  { file: 'store-01.svg', w: 640, h: 420, label: 'STORE 01' },
-  { file: 'store-02.svg', w: 640, h: 420, label: 'STORE 02' },
-  { file: 'store-03.svg', w: 640, h: 420, label: 'STORE 03' },
-  { file: 'store-04.svg', w: 640, h: 420, label: 'STORE 04' },
 ]
 
 for (const img of images) {

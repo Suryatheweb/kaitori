@@ -21,6 +21,7 @@
 .company__value {
   font-size: var(--font-size-base);
   color: var(--color-on-dark);
+  white-space: pre-line;
 }
 
 @media (min-width: 768px) {

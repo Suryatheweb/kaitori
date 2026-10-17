@@ -60,13 +60,5 @@ Regenerate this table with: `node scripts/image-info.mjs`
 | public/images/reason-01.webp                 | 1200 × 800    | 48.6     |
 | public/images/reason-02.svg                  | ? × ?         | 0.5      |
 | public/images/reason-02.webp                 | 1200 × 800    | 32.0     |
-| public/images/store-01.jpg                   | 800 × 589     | 62.0     |
-| public/images/store-01.svg                   | ? × ?         | 0.5      |
-| public/images/store-02.jpg                   | 800 × 589     | 26.8     |
-| public/images/store-02.svg                   | ? × ?         | 0.5      |
-| public/images/store-03.jpg                   | 800 × 600     | 53.0     |
-| public/images/store-03.svg                   | ? × ?         | 0.5      |
-| public/images/store-04.jpg                   | 800 × 600     | 75.1     |
-| public/images/store-04.svg                   | ? × ?         | 0.5      |
 | public/images/title-underline.webp           | 970 × 78      | 8.8      |
 | public/ogp.png                               | 1200 × 630    | 686.6    |
