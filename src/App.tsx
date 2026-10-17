@@ -10,6 +10,7 @@ import Hero from './components/Hero'
 import Items from './components/Items'
 import MobileContactBar from './components/MobileContactBar'
 import News from './components/News'
+import Opening from './components/Opening'
 import Price from './components/Price'
 import Reasons from './components/Reasons'
 import ContactPage from './pages/ContactPage'
@@ -37,6 +38,7 @@ export default function App() {
 
   return (
     <>
+      <Opening />
       <Header />
       <main id="main-content">
         {isContact ? (

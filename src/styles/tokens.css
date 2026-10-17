@@ -76,6 +76,7 @@
   /* --- Layering --- */
   --z-header: 100;
   --z-mobile-bar: 90;
+  --z-opening: 200;
 }
 
 @media (min-width: 1024px) {

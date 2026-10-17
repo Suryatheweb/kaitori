@@ -77,7 +77,7 @@ export const site = {
   phoneHref: 'tel:000000000',
   ctaLabel: '無料査定はこちら',
   ctaHref: '/contact',
-  copyright: '© 買取ひだまり堂',
+  copyright: '© 買取ひだまり堂 2026',
 }
 
 export const links = {
